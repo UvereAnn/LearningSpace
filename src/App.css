@@ -1,0 +1,786 @@
+.App{
+  font-family: sans-serif;
+}
+
+/*****Header***/
+#logo{
+  width: 40%;
+  height: 20%;
+}
+
+#about, #contact, #courses{
+  color: #3FB0D4;
+  font-size: 16px;
+}
+
+#about:hover, #contact:hover, #courses:hover{
+  color: #707070;
+}
+
+.button-div{
+  margin: auto 10px auto 100px;
+}
+
+#login{
+  background-color: white;
+  color: #3FB0D4;
+  font-weight: 600;
+  border: 2px solid #3FB0D4;
+  padding: auto 40px;
+  border-radius: 10px;
+}
+
+#signup{
+  background-color: #257F9B;
+  color: #ffffff;
+  font-weight: 600;
+  border: 2px solid #257F9B;
+  padding: auto 20px;
+  border-radius: 10px;
+}
+
+
+
+
+/****Main***/
+.banner{
+  filter: brightness(40%);
+  background-color: #257F9B;
+  height: 100vh;
+  width: 100%;
+}
+
+.banner-text{
+    position: absolute; 
+    top: 40%; 
+    left: 3%;
+    color: #ffffff;
+}
+
+.search{
+  position: absolute; 
+  top: 50%; 
+  left: 3%; 
+}
+
+.button-group{
+  position: absolute;
+  margin-top: -60px;
+  left: 30px;
+  padding: 10px;
+  width: 95%;
+  border-radius: 20px;
+  background-color: #257F9B;
+}
+
+#btn-grp1,#btn-grp2,#btn-grp3 {
+  background-color: #257F9B;
+  border: none;
+}
+
+.mortarboard{
+  border-left: 3px solid white;
+  height: 50px;
+  margin-left: 5px;
+  margin-top: 50px;
+}
+
+.book{
+  border-left: 3px solid white;
+  height: 50px;
+  margin-left: 5px;
+}
+
+.people{
+  border-left: 3px solid white;
+  height: 50px;
+  margin-left: 5px;
+}
+
+#student{
+  margin-top: -20px;
+  margin-left: 50px;
+}
+
+/***About***/
+.about{
+  background-color: #eee8e8;
+  margin-top: 80px;
+}
+
+#about-img{
+  border-radius: 20px;
+}
+
+#about-text{
+  margin: 40px 20px;
+}
+
+.about-h2{
+  margin-left: 50px;
+  
+}
+
+.about-h2 h2{
+  color: grey;
+}
+
+/****Courses*****/
+
+.courses{
+  background-color: #ffffff;
+  margin-top: 100px;
+}
+
+#courses-text{
+  margin: 40px 20px;
+}
+
+.courses-h2{
+  margin-left: 50px;
+  
+}
+
+.courses-h2 h2{
+  color: grey;
+}
+
+.courses-image{
+  filter: brightness(30%);
+  height: 60vh;
+  width: 100%;
+}
+
+.courses-text{
+    position: absolute; 
+    top: 1500px; 
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    margin: auto 200px;
+}
+
+/****Categories****/
+
+.categories{
+  background-color: #ffffff;
+  margin-top: 0px;
+}
+
+.categories-h2{
+  margin-left: 50px; 
+}
+
+.categories-h2 h2{
+  color: grey;
+}
+
+.cate{
+  margin: 0 -5px;
+  margin-left: -20px;
+  right: -20px;
+  width: 18%;
+  box-sizing: content-box;
+  height: 100px;
+  padding: 10px;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*****Students and Teachers***/
+.students-teachers{
+  background-color: #257F9B;
+  width: 100%;
+  border: 2px solid #257F9B;
+}
+
+.students-teachers-div2{
+  width: 60%;
+  margin-left: 250px;
+  margin-bottom: 100px;
+}
+
+.students-h2{
+  margin-left: 50px;
+}
+
+.teachers-h2{
+  margin-left: 50px;
+}
+
+/****Testimonials***/
+.testimonials{
+  background-color: #ffffff;
+  margin-bottom: 200px;
+  
+}
+
+.testimonials-h2{
+  margin-left: 50px; 
+  color: #707070;
+}
+
+.testimonial-card-parent{
+  columns: 2;
+}
+
+.testimonial-card{
+    right: -20px;
+    box-sizing: content-box;
+    height: 200px;
+    padding: 100px;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    margin: 10px 200px;
+    text-align: center;   
+}
+
+.testimonial-card b{
+  color: rgb(236, 232, 232);
+  margin-left: 30px;
+}
+
+/****Clients****/
+.clients{
+  background-color: #ffffff;
+  margin-top: -200px;
+  
+}
+
+.clients-h2{
+  margin-left: 50px; 
+  color: #707070;
+}
+
+.company-logos{
+  margin: 30px 100px 150px 50px;
+  margin-bottom: 0px; 
+}
+
+/******Contact****/
+.contact{
+  background-color: #ffffff;
+  
+}
+
+.contact-h2{
+  margin-left: 50px; 
+  color: #707070;
+}
+
+.contact-left{
+  background-color: #257F9B;
+}
+
+.contact-right{
+  background-color: gainsboro;
+}
+.contact-left-parent{
+  margin: 30px 20px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.contact-left-phone, .contact-left-message{
+  padding-bottom: 40px;
+}
+
+.form{
+  margin-top: 60px;
+}
+
+#contact-right-h3{
+ text-align: center;
+ color: grey;
+ margin-bottom: 20px;
+}
+
+.contact-form-group{
+  margin-bottom: 20px;
+}
+
+.contact-right-first-div{
+  columns: 2;
+}
+
+.contact-submit-button{
+  width: 100%;
+}
+
+/*****Footer***/
+.footer-row{
+  box-sizing: border-box;
+  background-color: #257F9B;
+  margin-top: 100px;
+  padding: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  clip-path: polygon(0 0, 0 0, 100% 11%, 100% 100%, 70% 100%, 0 100%, 0% 70%, 0 1%);
+}
+
+.footer-column{
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.footer-row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-col-three{
+  margin-top: 40px;
+}
+
+.footer-col-four{
+  margin-top: 80px;
+}
+
+.footer-search{
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  display: inline-flex;
+  padding: 5px 50px;
+  color: #ccc;
+  background-color: #ffffff;
+}
+
+.footer-search h3{
+  text-align: center;
+  padding-left: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#horizontal-line{
+  border-bottom: 1px solid #ffffff;
+  height: 200px;
+  margin-top: -350px;
+  position: relative;
+}
+
+.footer-last-div{
+  color: #ffffff;
+  position: relative;
+  margin-top: 20px;
+}
+
+.footer-last-div h3{
+  margin-left: -70px;
+}
+
+.footer-last-div p{
+  margin-left: -50px;
+  padding-right: -40px;
+}
+
+
+/*******Login******/
+.login{
+  margin-top: 150px;
+}
+
+.login-row{
+  height: 200px;
+  margin-bottom: 250px;
+}
+
+.login-left{
+  padding: 0px 10px 0px 60px;
+}
+
+.login-column{
+  padding: 10px;
+  height: 300px; 
+  margin-top: 80px;
+  margin-left: 100px;
+  align-items: center;
+  text-align: center;
+}
+
+#login-h2{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: -100px;
+}
+
+.login-email-input, .login-password-input{
+  border: 2px solid grey;
+  border-radius: 10px;
+  display: inline-flex;
+  color: #aaa;
+  background-color: #ddd;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.login-email-input h3, .login-password-input h3{
+  margin-left: 5px;
+  margin-top: 13px;
+  font-size: 18px;
+}
+
+.login-last-div p{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  color: #bbb;
+}
+
+.login-text{
+  border: 2px solid none;
+  border-radius: 10px;
+  background-color: #257F9B;
+  margin-top: 20px;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  margin-left: 60px;
+}
+
+#login-span{
+  color: #257F9B;
+}
+
+
+/*******Forgotten Password******/
+.forgot{
+  margin-top: 200px;
+}
+
+.forgot-row{
+  height: 200px;
+  margin-bottom: 250px;
+}
+
+.forgot-left{
+  padding: 0px 10px 0px 60px;
+}
+
+.forgot-column{
+  padding: 10px;
+  height: 300px; 
+  margin-top: 10px;
+  margin-left: 100px;
+  align-items: center;
+  text-align: center;
+}
+
+#forgot-h2{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: -30px;
+}
+
+.forgot-email-input{
+  border: 2px solid grey;
+  border-radius: 10px;
+  display: inline-flex;
+  color: #aaa;
+  background-color: #ddd;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.forgot-email-input h3{
+  margin-left: 5px;
+  margin-top: 13px;
+  font-size: 18px;
+}
+
+#forgot-login{
+  color: #aaa;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+
+/*******Sign Up******/
+.signup{
+  margin-top: 150px;
+}
+
+.signup-row{
+  height: 200px;
+  margin-bottom: 500px;
+}
+
+.signup-left{
+  padding: 0px 10px 0px 60px;
+}
+
+.signup-column{
+  padding: 10px;
+  height: 300px; 
+  margin-top: 10px;
+  margin-left: 100px;
+  align-items: center;
+  text-align: center;
+}
+
+#signup-h2{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: -30px;
+}
+
+.signup-email-input, .signup-password-input{
+  border: 2px solid grey;
+  border-radius: 10px;
+  display: inline-flex;
+  color: #aaa;
+  background-color: #ddd;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.signup-email-input h3, .signup-password-input h3{
+  margin-left: 5px;
+  margin-top: 13px;
+  font-size: 18px;
+}
+
+.signup-last-div p{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  color: #bbb;
+}
+
+.signup-text{
+  border: 2px solid none;
+  border-radius: 10px;
+  background-color: #257F9B;
+  margin-top: 20px;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.remember{
+  margin-left: -330px;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+
+.remember label{
+  margin-left: 15px;
+}
+
+#signup-span{
+  color: #257F9B;
+}
+
+input{
+  accent-color: #257F9B;
+}
+
+
+/****************Resources************/
+.resources{
+  margin-top: 150px;
+}
+
+#resources-h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.resources-search{
+  margin-bottom: 30px;
+}
+
+.ms-n5 {
+  margin-left: -40px;
+}
+
+.resources-cardgroup{
+  padding: 20px 30px;
+}
+
+.resources-card{
+  margin: 5px 20px;
+}
+
+/***************Various Resources***********/
+.various-resources{
+  margin-top: 100px;
+}
+
+.various-resources h2{
+  text-align: center;
+  margin-top: 150px;
+}
+
+.var-container{
+  left: 23%;
+}
+
+.var-container h2{
+  font-size: 18px;
+  margin-top: 10px;
+}
+  
+
+.readmore-text{
+ font-size: 18px;
+}
+  
+.read-or-hide{
+  color: #257F9B;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main_header {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(212, 29%, 94%);
+  display: grid;
+  place-items: center;
+}
+
+.center-div {
+  width: 10rem;
+  height: 10rem;
+  background-color: #ee5253;
+  position: relative;
+  transform: rotate(45deg);
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072);
+  animation: hbeat 1s linear infinite;
+}
+
+.center-div::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #ee5253;
+  position: absolute;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+.center-div::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #ee5253;
+  position: absolute;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes hbeat {
+  0% {
+    transform: rotate(45deg) scale(1);
+  }
+  20% {
+    transform: rotate(45deg) scale(1);
+  }
+  40% {
+    transform: rotate(45deg) scale(1.4);
+  }
+  60% {
+    transform: rotate(45deg) scale(1.2);
+  }
+  80% {
+    transform: rotate(45deg) scale(1.4);
+  }
+  100% {
+    transform: rotate(45deg) scale(1);
+  }
+}
+
+.heartBtn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content{
+  border: 2px solid #9c9496;
+  padding: 13px 16px;
+  border-radius: 5px;
+  display: flex;
+  cursor: pointer;
+}
+
+.content .heart{
+  height: 90px;
+  width: 90px;
+  background: url('./components/images/heart.png') no-repeat;
+  background-position: left;
+  background-size: 2900%;
+  position: absolute;
+  top: 50%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+}
+
+.heart:hover{
+  background-position: right;
+  animation: animate .8s step(28) 1;
+}
+
+@keyframes animate {
+  0%{
+    background-position: left;
+  }
+  100%{
+    background-position: r;
+  }
+}
+
+.like{
+  margin-left: 30px;
+  font-size: 21px;
+  font-family: serif;
+  color: #9c9496;
+}
+
+.numb:before{
+  content: '0';
+  font-size: 21px;
+  font-weight: 600;
+  font-family: serif;
+  color: #9c9496;
+  margin-left: 7px;
+}
